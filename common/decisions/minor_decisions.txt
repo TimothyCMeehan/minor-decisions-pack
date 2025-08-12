@@ -1,0 +1,25 @@
+my_first_decision = {
+	# Visual + AI housekeeping
+	picture = decision_misc        # any valid vanilla key is fine; see notes below
+	ai_check_interval = 180           # AI re-checks every 180 days (good default)
+
+	# The title is localized from the key "my_first_decision"
+	# description key (this links to localization)
+	desc = my_first_decision_desc
+
+	# Who can see it
+	is_shown = {
+		always = yes
+	}
+
+	# Who can click it
+	is_valid = {
+		always = yes
+	}
+
+	# What happens when they click
+	effect = {
+		add_prestige = 50
+		add_stress = -20
+	}
+}
