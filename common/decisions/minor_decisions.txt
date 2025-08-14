@@ -1,6 +1,6 @@
 my_first_decision = {
 	# Visual + AI housekeeping
-	picture = decision_misc        # any valid vanilla key is fine; see notes below
+	picture = default_break.dds  # newly generated image
 	ai_check_interval = 180           # AI re-checks every 180 days (good default)
 
 	# The title is localized from the key "my_first_decision"
