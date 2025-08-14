@@ -1,11 +1,13 @@
+﻿
 my_first_decision = {
 	# Visual + AI housekeeping
-	picture = default_break.dds  # newly generated image
-	ai_check_interval = 180           # AI re-checks every 180 days (good default)
+	picture = { reference = "gfx/interface/illustrations/decisions/default_break.dds" } # newly generated image
 
 	# The title is localized from the key "my_first_decision"
 	# description key (this links to localization)
 	desc = my_first_decision_desc
+		
+	ai_check_interval = 180           # AI re-checks every 180 days (good default)
 
 	# Who can see it
 	is_shown = {
