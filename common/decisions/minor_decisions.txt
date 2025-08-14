@@ -1,7 +1,11 @@
 ﻿
 my_first_decision = {
 	# Visual + AI housekeeping
-	picture = { reference = "gfx/interface/illustrations/decisions/default_break.dds" } # newly generated image
+	picture = {
+		trigger = { culture = culture:norse }
+		reference = "gfx/interface/illustrations/decisions/norse_break.dds" # norse only image
+	}
+	picture = { reference = "gfx/interface/illustrations/decisions/default_break.dds" } # default image
 
 	# The title is localized from the key "my_first_decision"
 	# description key (this links to localization)
